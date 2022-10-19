@@ -9,7 +9,7 @@ If what you see in-game does not match the advertised description, please submit
 <hr>
 Pros (all layouts):
 <ol>
-  <li>Non-human crew.</li>
+	<li>Non-human crew.</li>
 	<li>Short distance between Systems.</li>
 	<li>Central Medbay/Clonebay, allowing crew to heal/revive and get back to stations fast.</li>
 	<li>All rooms except Medbay/Clonebay can be vented, which makes extinguishing fires, suffocating intruders and funneling intruders into the Medbay (A and B) easy.</li>
@@ -103,6 +103,6 @@ Square C (Fang Xing): Boarding focus. "This ship goes all-in with the boarding s
 	</tr>
 </table>
 
-[All systems and weapon mount locations (white/red: available/not available at start)](https://raw.githubusercontent.com/CommunistMountain/SquareCruiser/main/preview-images/Square%20Layouts.png)
+[All systems and weapon mount locations (white/red: available/not available at start).](https://raw.githubusercontent.com/CommunistMountain/SquareCruiser/main/preview-images/Square%20Layouts.png)
 
 For modders: Internally they are called PLAYER_SHIP_SQUARE_CM (_2, _3). Only enough weapon mounts for Weapons Control for each ship, add more if you wish.

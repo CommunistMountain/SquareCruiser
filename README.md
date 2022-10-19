@@ -61,7 +61,7 @@ Square B (Reg Forgone): Drone focus. "This ship was designed by a drone fanatic,
 	</tr>
 	<tr>
 		<td>Systems by Level</td>
-		<td>1: Engines, Oxygen, Weapons, Medbay, Piloting, Doors; 2: Shields, 4: Drones</td>
+		<td>1: Engines, Oxygen, Weapons, Medbay, Piloting, Doors; 2: Shields; 4: Drones</td>
 	</tr>
 	<tr>
 		<td>Weapons/Drones Max Slots</td>

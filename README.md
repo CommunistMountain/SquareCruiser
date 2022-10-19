@@ -69,7 +69,7 @@ Square B (Reg Forgone): Drone focus. "This ship was designed by a drone fanatic,
 	</tr>
 	<tr>
 		<td>Starting Resources, Reactor, Weapons/Drones</td>
-		<td>16 Fuel, 0 Missiles, 2 Drone Parts, 6 Reactor, 1 Combat Drone 1, 1 Beam Drone 1</td>
+		<td>16 Fuel, 0 Missiles, 2 Drone Parts, 6 Reactor, 1 Ion Blast, 1 Combat Drone 1, 1 Beam Drone 1</td>
 	</tr>
 	<tr>
 		<td>Augmentations</td>

@@ -140,7 +140,7 @@
 		<drone name="COMBAT_BEAM" />
 	</droneList>
 	<health amount="30" />
-	<maxPower amount="5" />
+	<maxPower amount="6" />
 	<crewCount amount="1" class="energy" />
 	<aug name="DRONE_RECOVERY" />
 </shipBlueprint>

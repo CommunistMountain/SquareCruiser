@@ -19,7 +19,7 @@
 			</slot>
 		</doors>
 		<drones power="2" room="9" start="false" img="room_drones_14" />
-		<engines power="1" room="5" start="true" img="room_engines_9_flip_left">
+		<engines power="2" room="5" start="true" img="room_engines_9_flip_left">
 			<slot>
 				<direction>left</direction>
 				<number>2</number>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<shipBlueprint name="PLAYER_SHIP_SQUARE_CM" layout="squareA" img="squareA">
+	<class>Square Cruiser</class>
+	<name>The Hip</name>
+	<desc>Making the most of a limited budget, this ship is designed to minimise distance between systems and funnel intruders towards the Medbay.</desc>
+	<systemList>
+		<battery power="1" room="4" start="false" img="room_battery_2" />
+		<cloaking power="1" room="13" start="false" img="room_cloaking_9" />
+		<clonebay power="1" room="0" start="false">
+			<slot>
+				<number>1</number>
+			</slot>
+		</clonebay>
+		<doors power="1" room="6" start="true" img="room_doors_2">
+			<slot>
+				<direction>down</direction>
+				<number>0</number>
+			</slot>
+		</doors>
+		<drones power="2" room="9" start="false" img="room_drones_14" />
+		<engines power="1" room="5" start="true" img="room_engines_9_flip_left">
+			<slot>
+				<direction>left</direction>
+				<number>2</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="10" start="false" img="room_hacking_4" />
+		<medbay power="1" room="0" start="true" img="room_medbay_8">
+			<slot>
+				<number>-2</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="7" start="false" img="room_mind_2" />
+		<oxygen power="1" room="2" start="true" img="room_oxygen_2" />
+		<pilot power="1" room="1" start="true" img="room_pilot_4_right">
+			<slot>
+				<direction>down</direction>
+				<number>1</number>
+			</slot>
+		</pilot>
+		<sensors power="1" room="12" start="true" img="room_sensors_2_flip">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</sensors>
+		<shields power="2" room="11" start="true" img="room_shields_8_flip">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</shields>
+		<teleporter power="1" room="3" start="false" />
+		<weapons power="2" room="8" start="true" img="room_weapons_9_flip">
+			<slot>
+				<direction>up</direction>
+				<number>0</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList missiles="0" count="4">
+		<weapon name="LASER_BURST_3" />
+	</weaponList>
+	<droneList drones="0" count="2" />
+	<health amount="30" />
+	<maxPower amount="7" />
+	<crewCount amount="1" class="rock" />
+	<crewCount amount="1" class="engi" />
+</shipBlueprint>
+
+<shipBlueprint name="PLAYER_SHIP_SQUARE_CM_2" layout="squareB" img="squareB">
+	<class>Square Cruiser</class>
+	<name>Reg Forgone</name>
+	<desc>This ship was designed by a drone fanatic, capable of controlling up to 4 drones at once, and starting with a Drone Recovery Arm.</desc>
+	<systemList>
+		<battery power="1" room="4" start="false" img="room_battery_2" />
+		<cloaking power="1" room="13" start="false" img="room_cloaking_9" />
+		<clonebay power="1" room="0" start="false">
+			<slot>
+				<number>1</number>
+			</slot>
+		</clonebay>
+		<doors power="1" room="6" start="true" img="room_doors_2">
+			<slot>
+				<direction>down</direction>
+				<number>0</number>
+			</slot>
+		</doors>
+		<drones power="4" room="8" start="true" img="room_drones" />
+		<engines power="1" room="5" start="true" img="room_engines_9_flip_left">
+			<slot>
+				<direction>left</direction>
+				<number>2</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="10" start="false" img="room_hacking_4" />
+		<medbay power="1" room="0" start="true" img="room_medbay_8">
+			<slot>
+				<number>-2</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="7" start="false" img="room_mind_2" />
+		<oxygen power="1" room="2" start="true" img="room_oxygen_2" />
+		<pilot power="1" room="1" start="true" img="room_pilot_4_right">
+			<slot>
+				<direction>down</direction>
+				<number>1</number>
+			</slot>
+		</pilot>
+		<sensors power="1" room="12" start="false" img="room_sensors_2_flip">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</sensors>
+		<shields power="2" room="11" start="true" img="room_shields_8_flip">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</shields>
+		<teleporter power="1" room="3" start="false" />
+		<weapons power="1" room="9" start="true" img="room_weapons_8_left">
+			<slot>
+				<direction>left</direction>
+				<number>0</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>2</weaponSlots>
+	<droneSlots>4</droneSlots>
+	<weaponList missiles="0" count="2">
+		<weapon name="ION_1" />
+	</weaponList>
+	<droneList drones="2" count="4">
+		<drone name="COMBAT_1" />
+		<drone name="COMBAT_BEAM" />
+	</droneList>
+	<health amount="30" />
+	<maxPower amount="5" />
+	<crewCount amount="1" class="energy" />
+	<aug name="DRONE_RECOVERY" />
+</shipBlueprint>
+

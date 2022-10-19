@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<title><![CDATA[ Square Cruiser ]]></title>
+	<threadUrl><![CDATA[ https://github.com/CommunistMountain/SquareCruiser ]]></threadUrl>
+	<author><![CDATA[ CommunistMountain#0463 on Discord ]]></author>
+	<version><![CDATA[ 1.0 ]]></version>
+	<description>
+<![CDATA[
+Required Mods: Hyperspace (for multi-page ship list)
+
+Pros:
+	1. Layout which minimises distance between Systems.
+	2. Central Medbay/Clonebay for crew to heal/revive and get back to stations fast.
+	3. Excellent venting capabilities, can funnel intruders into the Medbay on A and B.
+Cons:
+	1. Low starting crew, system levels and/or reactor.
+	2. Compact design means more likely for lasers to hit multiple rooms.
+	3. Less systemless rooms means more likely for enemy to hit an important room.
+
+Lore: The Federation is strapped on cash, thus ships are compact and poorly-equipped, not even enough for proper textures.
+
+Square A (The Hip): Weapon focus
+Square B (Reg Forgone): Drone focus
+Square C (Fang Xing): Boarding focus
+
+See Github page for images and other information.
+
+For modders:
+Internally they are called PLAYER_SHIP_SQUARE_CM (_2, _3).
+Only enough weapon mounts for Weapons Control for each ship, add more if you wish.
+]]>
+	</description>
+</metadata>

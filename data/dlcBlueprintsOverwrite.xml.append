@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<shipBlueprint name="PLAYER_SHIP_SQUARE_CM_3" layout="squareC" img="squareC">
+	<class>Square Cruiser</class>
+	<name>Fang Xing</name>
+	<desc>This ship goes all-in with the boarding strategy, having more crew, a Crew Teleporter, and the ability to bypass supershields.</desc>
+	<systemList>
+		<battery power="1" room="4" start="false" img="room_battery_2" />
+		<cloaking power="1" room="13" start="false" img="room_cloaking_9" />
+		<clonebay power="1" room="0" start="true">
+			<slot>
+				<number>1</number>
+			</slot>
+		</clonebay>
+		<doors power="1" room="6" start="true" img="room_doors_2">
+			<slot>
+				<direction>down</direction>
+				<number>0</number>
+			</slot>
+		</doors>
+		<drones power="2" room="9" start="false" img="room_drones_14" />
+		<engines power="1" room="5" start="true" img="room_engines_9_flip_left">
+			<slot>
+				<direction>left</direction>
+				<number>2</number>
+			</slot>
+		</engines>
+		<hacking power="1" room="10" start="false" img="room_hacking_4" />
+		<medbay power="1" room="0" start="false" img="room_medbay_8">
+			<slot>
+				<number>-2</number>
+			</slot>
+		</medbay>
+		<mind power="1" room="7" start="false" img="room_mind_2" />
+		<oxygen power="1" room="2" start="true" img="room_oxygen_2" />
+		<pilot power="1" room="1" start="true" img="room_pilot_4_right">
+			<slot>
+				<direction>down</direction>
+				<number>1</number>
+			</slot>
+		</pilot>
+		<sensors power="1" room="12" start="false" img="room_sensors_2_flip">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</sensors>
+		<shields power="2" room="11" start="true" img="room_shields_8_flip">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</shields>
+		<teleporter power="1" room="8" start="true" />
+		<weapons power="1" room="3" start="true" img="room_weapons_8_right">
+			<slot>
+				<direction>right</direction>
+				<number>1</number>
+			</slot>
+		</weapons>
+	</systemList>
+	<weaponSlots>3</weaponSlots>
+	<droneSlots>3</droneSlots>
+	<weaponList missiles="0" count="3" />
+	<droneList drones="0" count="3" />
+	<health amount="30" />
+	<maxPower amount="5" />
+	<crewCount amount="1" class="slug" />
+	<crewCount amount="1" class="crystal" />
+	<crewCount amount="1" class="mantis" />
+	<aug name="ZOLTAN_BYPASS" />
+</shipBlueprint>
+

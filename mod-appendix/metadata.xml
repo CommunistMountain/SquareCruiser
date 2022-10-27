@@ -3,24 +3,22 @@
 	<title><![CDATA[ Square Cruiser ]]></title>
 	<threadUrl><![CDATA[ https://github.com/CommunistMountain/SquareCruiser ]]></threadUrl>
 	<author><![CDATA[ CommunistMountain ]]></author>
-	<version><![CDATA[ 1.0 ]]></version>
+	<version><![CDATA[ 1.1 ]]></version>
 	<description>
 <![CDATA[
-Requires the Hyperspace mod for the multi-page ship list, as it does not replace any vanilla ship. Hyperspace also has a fix for the “WEAPONS” and “AUTOFIRE” graphics overlapping for ships with 2 or less max weapons, applicable for Square B.
+Requires the Hyperspace mod for the multi-page ship list, as it does not replace any vanilla ship. Hyperspace also has a fix for the "WEAPONS" and "AUTOFIRE" graphics overlapping for ships with 2 or less max weapons, applicable for Square B.
 
 If what you see in-game does not match the advertised description, please submit an issue, or contact me on Reddit (CommunistMountain) or Discord (CommunistMountain#0463).
 
 Pros:
 	1. Non-human crew.
-	2. Short distance between Systems.
-	3. Central Medbay/Clonebay, allowing crew to heal/revive and get back to stations fast.
-	4. All rooms except Medbay/Clonebay can be vented, which makes extinguishing fires, suffocating intruders and funneling intruders into the Medbay (A and B) easy.
+	2. Short distance between systems.
+	3. All external rooms can be vented, which makes extinguishing fires and suffocating intruders easy.
 
 Cons:
 	1. Low starting crew, system levels and/or reactor.
 	2. Compact design means it is more likely for enemy beams to hit multiple rooms.
 	3. Less systemless rooms means it is more likely for the enemy to damage an important room.
-	4. If the Medbay/Clonebay is hacked, crew are isolated from each other.
 
 Lore: The Federation is strapped on cash, thus ships are compact and poorly-equipped, not even enough for proper textures.
 
@@ -30,8 +28,7 @@ Square C (Fang Xing): Boarding focus. "This ship goes all-in with the boarding s
 
 See Github page for images and other information.
 
-For modders:
-Internally they are called PLAYER_SHIP_SQUARE_CM (_2, _3). Only enough weapon mounts for Weapons Control for each ship, add more if you wish.
+For modders: Internally they are called PLAYER_SHIP_SQUARE_CM (_2, _3). Only enough weapon mounts for Weapons Control for each ship, add more if you wish.
 ]]>
 	</description>
 </metadata>

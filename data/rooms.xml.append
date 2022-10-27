@@ -1,21 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<roomLayout name="engines_9_flip_left">
+<roomLayout name="engines_9_squareA">
 	<computerGlow x="1" y="43" dir="LEFT" />
 </roomLayout>
-<roomLayout name="pilot_4_right">
+<roomLayout name="engines_9_squareC">
+	<computerGlow x="5" y="53" dir="DOWN" />
+</roomLayout>
+<roomLayout name="pilot_3_squareC">
+	<computerGlow name="glow_pilot" x="8" y="0" dir="UP" />
+</roomLayout>
+<roomLayout name="pilot_4_squareA">
 	<computerGlow name="glow_pilot" x="43" y="19" dir="DOWN" />
 </roomLayout>
-<roomLayout name="shields_8_flip">
+<roomLayout name="shields_5_squareB">
+	<computerGlow x="10" y="53" dir="DOWN" />
+</roomLayout>
+<roomLayout name="shields_8_squareA">
 	<computerGlow x="53" y="12" dir="RIGHT" />
 </roomLayout>
-<roomLayout name="weapons_8_left">
-	<computerGlow x="0" y="8" dir="LEFT" />
-</roomLayout>
-<roomLayout name="weapons_8_right">
-	<computerGlow x="19" y="40" dir="RIGHT" />
-</roomLayout>
-<roomLayout name="weapons_9_flip">
+<roomLayout name="weapons_8_squareB">
 	<computerGlow x="8" y="0" dir="UP" />
+</roomLayout>
+<roomLayout name="weapons_9_squareA">
+	<computerGlow x="8" y="0" dir="UP" />
+</roomLayout>
+<roomLayout name="weapons_9_squareC">
+	<computerGlow x="4" y="54" dir="DOWN" />
 </roomLayout>
 

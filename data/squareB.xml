@@ -4,7 +4,7 @@
 <img x="-35" y="-35" w="281" h="281" />
 <offsets>
 	<floor x="29" y="29" />
-	<cloak x="0" y="0" />
+	<cloak x="-25" y="-25" />
 </offsets>
 <weaponMounts>
 	<mount x="280" y="70" rotate="true" mirror="true" gib="2" slide="right" />

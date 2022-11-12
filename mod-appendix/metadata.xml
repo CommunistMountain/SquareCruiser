@@ -3,15 +3,12 @@
 	<title><![CDATA[ Square Cruiser ]]></title>
 	<threadUrl><![CDATA[ https://github.com/CommunistMountain/SquareCruiser ]]></threadUrl>
 	<author><![CDATA[ CommunistMountain ]]></author>
-	<version><![CDATA[ 1.2.1 ]]></version>
+	<version><![CDATA[ 1.3 ]]></version>
 	<description>
 <![CDATA[
 Requires the Hyperspace mod for the multi-page ship list, as it does not replace any vanilla ship. Hyperspace also has a fix for the "WEAPONS" and "AUTOFIRE" graphics overlapping for ships with 2 or less max weapons, applicable for Square B.
 
 If what you see in-game does not match the advertised description, please submit an issue, or contact me on Reddit (CommunistMountain) or Discord (CommunistMountain#0463).
-
-KNOWN BUGS:
-	1. If you are playing Square B and click the restart button, you will not start with the System Repair Drone. You must go back to the hangar and start a run the usual way. It is not a bug with my mod in particular, it is native to vanilla FTL. It causes the 3rd (and higher) starting drone blueprint to be deleted on restart, unless you are playing a vanilla ship (e.g. Engi B) which seemingly has their own hard-coded exceptions. I hope that Hyperspace fixes this in the future. However, it can also be seen as a "feature"; if you want even more challenge, you can choose to not start with the System Repair Drone using this mechanic.
 
 Pros:
 	1. Non-human crew.

@@ -76,7 +76,7 @@
 	<name>Reg Forgone</name>
 	<desc>This ship was designed by a drone fanatic, capable of controlling up to 4 drones at once, and starting with a Drone Recovery Arm.</desc>
 	<systemList>
-		<battery power="1" room="4" start="true" img="room_battery_10" />
+		<battery power="2" room="4" start="true" img="room_battery_10" />
 		<cloaking power="1" room="13" start="false" img="room_cloaking_4" />
 		<clonebay power="1" room="0" start="false">
 			<slot>
@@ -135,13 +135,13 @@
 	<weaponList missiles="0" count="1">
 		<weapon name="ION_1" />
 	</weaponList>
-	<droneList drones="2" count="3">
+	<droneList drones="3" count="3">
 		<drone name="COMBAT_1" />
 		<drone name="COMBAT_BEAM" />
 		<drone name="REPAIR" />
 	</droneList>
 	<health amount="30" />
-	<maxPower amount="5" />
+	<maxPower amount="3" />
 	<crewCount amount="1" class="energy" />
 	<aug name="DRONE_RECOVERY" />
 </shipBlueprint>

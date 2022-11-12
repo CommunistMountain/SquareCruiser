@@ -61,10 +61,10 @@
 	</systemList>
 	<weaponSlots>4</weaponSlots>
 	<droneSlots>2</droneSlots>
-	<weaponList missiles="0" count="4">
+	<weaponList missiles="0" count="1">
 		<weapon name="LASER_BURST_3" />
 	</weaponList>
-	<droneList drones="0" count="2" />
+	<droneList drones="0" count="0" />
 	<health amount="30" />
 	<maxPower amount="7" />
 	<crewCount amount="1" class="rock" />
@@ -132,10 +132,10 @@
 	</systemList>
 	<weaponSlots>2</weaponSlots>
 	<droneSlots>4</droneSlots>
-	<weaponList missiles="0" count="2">
+	<weaponList missiles="0" count="1">
 		<weapon name="ION_1" />
 	</weaponList>
-	<droneList drones="2" count="4">
+	<droneList drones="2" count="3">
 		<drone name="COMBAT_1" />
 		<drone name="COMBAT_BEAM" />
 		<drone name="REPAIR" />

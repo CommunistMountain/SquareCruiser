@@ -1,11 +1,16 @@
 # SquareCruiser
-Mod that adds the Square Cruiser to the game FTL: Faster Than Light. Latest version: 1.2
+Mod that adds the Square Cruiser to the game FTL: Faster Than Light. Latest version: 1.2.1
 
 Requires the [Hyperspace mod](https://github.com/FTL-Hyperspace/FTL-Hyperspace) for the multi-page ship list, as it does not replace any vanilla ship. Hyperspace also has a fix for the "WEAPONS" and "AUTOFIRE" graphics overlapping for ships with 2 or less max weapons, applicable for Square B.
 
 The release SquareCruiser.zip contains folders "data", "img" and "mod-appendix". Change the file extension from .zip to .ftl to use as a mod with the [Slipstream Mod Manager](https://github.com/Vhati/Slipstream-Mod-Manager).
 
 If what you see in-game does not match the advertised description, please submit an issue, or contact me on Reddit (CommunistMountain) or Discord (CommunistMountain#0463).
+
+KNOWN BUGS:
+<ol>
+<li>If you are playing Square B and click the restart button, you will not start with the System Repair Drone. You must go back to the hangar and start a run the usual way. It is not a bug with my mod in particular, it is native to vanilla FTL. It causes the 3rd (and higher) starting drone blueprint to be deleted on restart, unless you are playing a vanilla ship (e.g. Engi B) which seemingly has their own hard-coded exceptions. I hope that Hyperspace fixes this in the future. However, it can also be seen as a "feature"; if you want even more challenge, you can choose to not start with the System Repair Drone using this mechanic.</li>
+</ol>
 <hr>
 Pros (all layouts):
 <ol>

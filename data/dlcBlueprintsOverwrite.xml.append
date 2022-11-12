@@ -61,8 +61,8 @@
 	</systemList>
 	<weaponSlots>3</weaponSlots>
 	<droneSlots>2</droneSlots>
-	<weaponList missiles="0" count="3" />
-	<droneList drones="0" count="2" />
+	<weaponList missiles="0" count="0" />
+	<droneList drones="0" count="0" />
 	<health amount="30" />
 	<maxPower amount="5" />
 	<crewCount amount="1" class="slug" />

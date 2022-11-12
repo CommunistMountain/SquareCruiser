@@ -7,7 +7,7 @@
 	<systemList>
 		<battery power="1" room="4" start="false" img="room_battery_2" />
 		<cloaking power="1" room="13" start="false" img="room_cloaking_4" />
-		<clonebay power="2" room="0" start="true">
+		<clonebay power="1" room="0" start="true">
 			<slot>
 				<number>1</number>
 			</slot>
@@ -39,7 +39,7 @@
 				<number>0</number>
 			</slot>
 		</pilot>
-		<sensors power="1" room="12" start="false" img="room_sensors_squareC">
+		<sensors power="1" room="12" start="false" img="room_sensors_3_squareC">
 			<slot>
 				<direction>left</direction>
 				<number>0</number>

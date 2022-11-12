@@ -1,5 +1,5 @@
 # SquareCruiser
-Mod that adds the Square Cruiser to the game FTL: Faster Than Light. Latest version: 1.1
+Mod that adds the Square Cruiser to the game FTL: Faster Than Light. Latest version: 1.2
 
 Requires the [Hyperspace mod](https://github.com/FTL-Hyperspace/FTL-Hyperspace) for the multi-page ship list, as it does not replace any vanilla ship. Hyperspace also has a fix for the "WEAPONS" and "AUTOFIRE" graphics overlapping for ships with 2 or less max weapons, applicable for Square B.
 
@@ -59,7 +59,7 @@ Square B (Reg Forgone): Drone focus. "This ship was designed by a drone fanatic,
 	</tr>
 	<tr>
 		<td>Systems by Level</td>
-		<td>1: Engines, Oxygen, Weapons, Medbay, Piloting, Doors; 2: Shields; 4: Drones</td>
+		<td>1: Engines, Oxygen, Weapons, Medbay, Piloting, Doors, Backup Battery; 2: Shields; 4: Drones</td>
 	</tr>
 	<tr>
 		<td>Weapons/Drones Max Slots</td>
@@ -67,7 +67,7 @@ Square B (Reg Forgone): Drone focus. "This ship was designed by a drone fanatic,
 	</tr>
 	<tr>
 		<td>Starting Resources, Reactor, Weapons/Drones</td>
-		<td>16 Fuel, 0 Missiles, 2 Drone Parts, 6 Reactor, 1 Ion Blast, 1 Combat Drone 1, 1 Beam Drone 1</td>
+		<td>16 Fuel, 0 Missiles, 2 Drone Parts, 5 Reactor, 1 Ion Blast, 1 Combat Drone 1, 1 Beam Drone 1, 1 System Repair Drone</td>
 	</tr>
 	<tr>
 		<td>Augmentations</td>
@@ -85,7 +85,7 @@ Square C (Fang Xing): Boarding focus. "This ship goes all-in with the boarding s
 	</tr>
 	<tr>
 		<td>Systems by Level</td>
-		<td>1: Oxygen, Weapons, Teleporter, Piloting, Doors; 2: Shields, Engines Clone Bay</td>
+		<td>1: Oxygen, Weapons, Teleporter, Clone Bay, Piloting, Doors; 2: Shields, Engines</td>
 	</tr>
 	<tr>
 		<td>Weapons/Drones Max Slots</td>

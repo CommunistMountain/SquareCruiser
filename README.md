@@ -97,8 +97,7 @@ Square C (Ragnarr Loðbrók): Boarding focus. "This ship goes all-in with the bo
 	</tr>
 	<tr>
 		<td>Augmentations</td>
-		<td>Reconstructive Teleport</td>
-		<td>Zoltan Shield Bypass</td>
+		<td>Reconstructive Teleport, Zoltan Shield Bypass</td>
 	</tr>
 </table>
 

@@ -2,8 +2,8 @@
 
 <shipBlueprint name="PLAYER_SHIP_SQUARE_CM" layout="squareA" img="squareA">
 	<class>Square Cruiser</class>
-	<name>The Hip</name>
-	<desc>Making the most of a limited budget, this ship is designed to minimise distance between systems and funnel intruders towards the Medbay.</desc>
+	<name>Nausicaä</name>
+	<desc>This ship is designed to burn enemy ships. Comes with a Cloaking system to buy time while arming the Fire Beam.</desc>
 	<systemList>
 		<battery power="1" room="4" start="false" img="room_battery_2"/>
 		<cloaking power="1" room="13" start="true" img="room_cloaking_9"/>
@@ -28,7 +28,7 @@
 		<hacking power="1" room="10" start="false" img="room_hacking_4"/>
 		<medbay power="1" room="0" start="true" img="room_medbay_8">
 			<slot>
-				<number>-2</number>
+				<number>1</number>
 			</slot>
 		</medbay>
 		<mind power="1" room="7" start="false" img="room_mind_2"/>
@@ -39,7 +39,7 @@
 				<number>1</number>
 			</slot>
 		</pilot>
-		<sensors power="1" room="12" start="true" img="room_sensors_2_squareA">
+		<sensors power="1" room="12" start="false" img="room_sensors_2_squareA">
 			<slot>
 				<direction>up</direction>
 				<number>1</number>
@@ -61,22 +61,23 @@
 	</systemList>
 	<weaponSlots>4</weaponSlots>
 	<droneSlots>2</droneSlots>
-	<weaponList missiles="0" count="1">
-		<weapon name="LASER_BURST_3" />
+	<weaponList missiles="0" count="2">
+		<weapon name="LASER_BURST_2_A"/>
+		<weapon name="BEAM_FIRE"/>
 	</weaponList>
-	<maxPower amount="7" />
 	<droneList drones="0" count="0"/>
 	<health amount="30"/>
+	<maxPower amount="6"/>
 	<crewCount amount="1" class="rock"/>
 	<crewCount amount="1" class="engi"/>
 </shipBlueprint>
 
 <shipBlueprint name="PLAYER_SHIP_SQUARE_CM_2" layout="squareB" img="squareB">
 	<class>Square Cruiser</class>
-	<name>Reg Forgone</name>
-	<desc>This ship was designed by a drone fanatic, capable of controlling up to 4 drones at once, and starting with a Drone Recovery Arm.</desc>
+	<name>The Mothership</name>
+	<desc>This ship was designed by a drone fanatic, able to control up to 4 drones at once, and recover non-destroyed drones.</desc>
 	<systemList>
-		<battery power="2" room="4" start="true" img="room_battery_10" />
+		<battery power="1" room="4" start="false" img="room_battery_10"/>
 		<cloaking power="1" room="13" start="false" img="room_cloaking_4"/>
 		<clonebay power="1" room="0" start="false">
 			<slot>
@@ -89,7 +90,7 @@
 				<number>0</number>
 			</slot>
 		</doors>
-		<drones power="4" room="8" start="true" img="room_drones_9"/>
+		<drones power="5" room="8" start="true" img="room_drones_9"/>
 		<engines power="1" room="5" start="true" img="room_engines_9">
 			<slot>
 				<direction>up</direction>
@@ -99,7 +100,7 @@
 		<hacking power="1" room="10" start="false" img="room_hacking_3"/>
 		<medbay power="1" room="0" start="true" img="room_medbay_8_squareB">
 			<slot>
-				<number>-2</number>
+				<number>0</number>
 			</slot>
 		</medbay>
 		<mind power="1" room="7" start="false" img="room_mind_1"/>
@@ -140,8 +141,8 @@
 		<drone name="COMBAT_BEAM"/>
 		<drone name="REPAIR"/>
 	</droneList>
-	<maxPower amount="3" />
 	<health amount="30"/>
+	<maxPower amount="7"/>
 	<crewCount amount="1" class="energy"/>
 	<aug name="DRONE_RECOVERY"/>
 </shipBlueprint>

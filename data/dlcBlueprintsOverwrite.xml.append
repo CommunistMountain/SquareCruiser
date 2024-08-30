@@ -2,12 +2,12 @@
 
 <shipBlueprint name="PLAYER_SHIP_SQUARE_CM_3" layout="squareC" img="squareC">
 	<class>Square Cruiser</class>
-	<name>Fang Xing</name>
-	<desc>This ship goes all-in with the boarding strategy, having more crew, a Crew Teleporter, and the ability to bypass supershields.</desc>
+	<name>Ragnarr Loðbrók</name>
+	<desc>This ship goes all-in with the boarding strategy, capable of bypassing supershields, and trading medical facilities for a healing teleporter.</desc>
 	<systemList>
 		<battery power="1" room="4" start="false" img="room_battery_2"/>
 		<cloaking power="1" room="13" start="false" img="room_cloaking_4"/>
-		<clonebay power="1" room="0" start="true">
+		<clonebay power="1" room="0" start="false">
 			<slot>
 				<number>1</number>
 			</slot>
@@ -28,10 +28,10 @@
 		<hacking power="1" room="10" start="false" img="room_hacking_3"/>
 		<medbay power="1" room="0" start="false" img="room_medbay_8">
 			<slot>
-				<number>-2</number>
+				<number>1</number>
 			</slot>
 		</medbay>
-		<mind power="1" room="7" start="false" img="room_mind_6"/>
+		<mind power="1" room="7" start="true" img="room_mind_6"/>
 		<oxygen power="1" room="2" start="true" img="room_oxygen_9"/>
 		<pilot power="1" room="1" start="true" img="room_pilot_3_squareC">
 			<slot>
@@ -51,7 +51,7 @@
 				<number>0</number>
 			</slot>
 		</shields>
-		<teleporter power="1" room="3" start="true"/>
+		<teleporter power="3" room="3" start="true"/>
 		<weapons power="1" room="9" start="true" img="room_weapons_9_squareC">
 			<slot>
 				<direction>down</direction>
@@ -64,9 +64,9 @@
 	<weaponList missiles="0" count="0"/>
 	<droneList drones="0" count="0"/>
 	<health amount="30"/>
-	<maxPower amount="5"/>
+	<maxPower amount="6"/>
 	<crewCount amount="1" class="slug"/>
-	<crewCount amount="1" class="crystal"/>
 	<crewCount amount="1" class="mantis"/>
+	<aug name="TELEPORT_HEAL"/>
 	<aug name="ZOLTAN_BYPASS"/>
 </shipBlueprint>

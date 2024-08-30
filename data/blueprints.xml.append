@@ -5,8 +5,8 @@
 	<name>The Hip</name>
 	<desc>Making the most of a limited budget, this ship is designed to minimise distance between systems and funnel intruders towards the Medbay.</desc>
 	<systemList>
-		<cloaking power="1" room="13" start="false" img="room_cloaking_9" />
 		<battery power="1" room="4" start="false" img="room_battery_2"/>
+		<cloaking power="1" room="13" start="true" img="room_cloaking_9"/>
 		<clonebay power="1" room="0" start="false">
 			<slot>
 				<number>1</number>
@@ -51,8 +51,8 @@
 				<number>1</number>
 			</slot>
 		</shields>
-		<weapons power="2" room="8" start="true" img="room_weapons_9_squareA">
 		<teleporter power="1" room="3" start="false"/>
+		<weapons power="4" room="8" start="true" img="room_weapons_9_squareA">
 			<slot>
 				<direction>up</direction>
 				<number>0</number>

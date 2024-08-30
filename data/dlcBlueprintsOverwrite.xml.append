@@ -18,8 +18,8 @@
 				<number>1</number>
 			</slot>
 		</doors>
-		<engines power="2" room="5" start="true" img="room_engines_9_squareC">
 		<drones power="2" room="8" start="false" img="room_drones_2"/>
+		<engines power="1" room="5" start="true" img="room_engines_9_squareC">
 			<slot>
 				<direction>down</direction>
 				<number>2</number>
@@ -61,10 +61,10 @@
 	</systemList>
 	<weaponSlots>3</weaponSlots>
 	<droneSlots>2</droneSlots>
-	<maxPower amount="5" />
 	<weaponList missiles="0" count="0"/>
 	<droneList drones="0" count="0"/>
 	<health amount="30"/>
+	<maxPower amount="5"/>
 	<crewCount amount="1" class="slug"/>
 	<crewCount amount="1" class="crystal"/>
 	<crewCount amount="1" class="mantis"/>

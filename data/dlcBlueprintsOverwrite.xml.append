@@ -5,8 +5,8 @@
 	<name>Fang Xing</name>
 	<desc>This ship goes all-in with the boarding strategy, having more crew, a Crew Teleporter, and the ability to bypass supershields.</desc>
 	<systemList>
-		<battery power="1" room="4" start="false" img="room_battery_2" />
-		<cloaking power="1" room="13" start="false" img="room_cloaking_4" />
+		<battery power="1" room="4" start="false" img="room_battery_2"/>
+		<cloaking power="1" room="13" start="false" img="room_cloaking_4"/>
 		<clonebay power="1" room="0" start="true">
 			<slot>
 				<number>1</number>
@@ -18,21 +18,21 @@
 				<number>1</number>
 			</slot>
 		</doors>
-		<drones power="2" room="8" start="false" img="room_drones_2" />
 		<engines power="2" room="5" start="true" img="room_engines_9_squareC">
+		<drones power="2" room="8" start="false" img="room_drones_2"/>
 			<slot>
 				<direction>down</direction>
 				<number>2</number>
 			</slot>
 		</engines>
-		<hacking power="1" room="10" start="false" img="room_hacking_3" />
+		<hacking power="1" room="10" start="false" img="room_hacking_3"/>
 		<medbay power="1" room="0" start="false" img="room_medbay_8">
 			<slot>
 				<number>-2</number>
 			</slot>
 		</medbay>
-		<mind power="1" room="7" start="false" img="room_mind_6" />
-		<oxygen power="1" room="2" start="true" img="room_oxygen_9" />
+		<mind power="1" room="7" start="false" img="room_mind_6"/>
+		<oxygen power="1" room="2" start="true" img="room_oxygen_9"/>
 		<pilot power="1" room="1" start="true" img="room_pilot_3_squareC">
 			<slot>
 				<direction>up</direction>
@@ -51,7 +51,7 @@
 				<number>0</number>
 			</slot>
 		</shields>
-		<teleporter power="1" room="3" start="true" />
+		<teleporter power="1" room="3" start="true"/>
 		<weapons power="1" room="9" start="true" img="room_weapons_9_squareC">
 			<slot>
 				<direction>down</direction>
@@ -61,13 +61,12 @@
 	</systemList>
 	<weaponSlots>3</weaponSlots>
 	<droneSlots>2</droneSlots>
-	<weaponList missiles="0" count="0" />
-	<droneList drones="0" count="0" />
-	<health amount="30" />
 	<maxPower amount="5" />
-	<crewCount amount="1" class="slug" />
-	<crewCount amount="1" class="crystal" />
-	<crewCount amount="1" class="mantis" />
-	<aug name="ZOLTAN_BYPASS" />
+	<weaponList missiles="0" count="0"/>
+	<droneList drones="0" count="0"/>
+	<health amount="30"/>
+	<crewCount amount="1" class="slug"/>
+	<crewCount amount="1" class="crystal"/>
+	<crewCount amount="1" class="mantis"/>
+	<aug name="ZOLTAN_BYPASS"/>
 </shipBlueprint>
-

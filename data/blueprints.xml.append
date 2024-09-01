@@ -62,7 +62,7 @@
 	<weaponSlots>4</weaponSlots>
 	<droneSlots>2</droneSlots>
 	<weaponList missiles="0" count="2">
-		<weapon name="LASER_BURST_2_A"/>
+		<weapon name="LASER_CHARGEGUN"/>
 		<weapon name="BEAM_FIRE"/>
 	</weaponList>
 	<droneList drones="0" count="0"/>

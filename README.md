@@ -41,7 +41,7 @@ Square A (Nausicaä): Weapon focus. "This ship is designed to burn enemy ships. 
 	</tr>
 	<tr>
 		<td>Starting Resources, Reactor, Weapons/Drones</td>
-		<td>0 Missiles, 0 Drone Parts, 7 Reactor, 1 Burst Laser 1, 1 Fire Beam</td>
+		<td>0 Missiles, 0 Drone Parts, 7 Reactor, 1 Laser Charger, 1 Fire Beam</td>
 	</tr>
 	<tr>
 		<td>Augmentations</td>

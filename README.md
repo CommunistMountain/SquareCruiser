@@ -1,5 +1,5 @@
 # SquareCruiser
-Mod that adds the Square Cruiser to the game FTL: Faster Than Light. Latest version: 1.4
+Mod that adds the Square Cruiser to the game FTL: Faster Than Light. Latest version: 1.5
 
 Requires the [Hyperspace mod](https://github.com/FTL-Hyperspace/FTL-Hyperspace) for the multi-page ship list, as it does not replace any vanilla ship. Hyperspace also has a fix for the "WEAPONS" and "AUTOFIRE" graphics overlapping for ships with 2 or less max weapons, applicable for Square B.
 
@@ -16,12 +16,11 @@ Pros (all layouts):
 
 Cons (all layouts):
 <ol>
-	<li>Low starting crew, system levels and/or reactor.</li>
 	<li>Compact design means it is more likely for enemy beams to hit multiple rooms.</li>
 	<li>Less systemless rooms means it is more likely for the enemy to damage an important room.</li>
 </ol>
 
-Lore: The Federation is strapped on cash, thus ships are compact and poorly-equipped, not even enough for proper textures.
+Lore: The Federation is strapped on cash, not even enough for proper textures, thus ships are designed to be minimalistic.
 
 [Square A in Hangar](https://raw.githubusercontent.com/CommunistMountain/SquareCruiser/main/preview-images/SquareA%20Promo.png)
 
@@ -45,7 +44,7 @@ Square A (Nausicaä): Weapon focus. "This ship is designed to burn enemy ships. 
 	</tr>
 	<tr>
 		<td>Augmentations</td>
-		<td>None</td>
+		<td>Lifeform Scanner, Stealth Weapons</td>
 	</tr>
 </table>
 
@@ -67,7 +66,7 @@ Square B (The Mothership): Drone focus. "This ship was designed by a drone fanat
 	</tr>
 	<tr>
 		<td>Starting Resources, Reactor, Weapons/Drones</td>
-		<td>0 Missiles, 3 Drone Parts, 7 Reactor, 1 Ion Blast, 1 Combat Drone 1, 1 Beam Drone 1, 1 System Repair Drone</td>
+		<td>0 Missiles, 3 Drone Parts, 7 Reactor, 1 Ion Blast, 1 Combat Drone 1, 1 Beam Drone 1, 1 System Repair Drone, 1 Hull Repair</td>
 	</tr>
 	<tr>
 		<td>Augmentations</td>
@@ -85,7 +84,7 @@ Square C (Ragnarr Loðbrók): Boarding focus. "This ship goes all-in with the bo
 	</tr>
 	<tr>
 		<td>Systems by Level</td>
-		<td>1: Doors, Engines, Mind Control, Oxygen, Piloting, Weapons; 2: Shields; 3: Teleporter</td>
+		<td>1: Doors, Mind Control, Oxygen, Weapons; 2: Piloting, Shields; 3: Teleporter; 4: Engines</td>
 	</tr>
 	<tr>
 		<td>Weapons/Drones Max Slots</td>
@@ -93,7 +92,7 @@ Square C (Ragnarr Loðbrók): Boarding focus. "This ship goes all-in with the bo
 	</tr>
 	<tr>
 		<td>Starting Resources, Reactor, Weapons/Drones</td>
-		<td>0 Missiles, 0 Drone Parts, 6 Reactor</td>
+		<td>0 Missiles, 0 Drone Parts, 7 Reactor</td>
 	</tr>
 	<tr>
 		<td>Augmentations</td>

@@ -70,6 +70,8 @@
 	<maxPower amount="7"/>
 	<crewCount amount="1" class="rock"/>
 	<crewCount amount="1" class="engi"/>
+	<aug name="CLOAK_FIRE"/>
+	<aug name="LIFE_SCANNER"/>
 </shipBlueprint>
 
 <shipBlueprint name="PLAYER_SHIP_SQUARE_CM_2" layout="squareB" img="squareB">
@@ -136,10 +138,11 @@
 	<weaponList missiles="0" count="1">
 		<weapon name="ION_1"/>
 	</weaponList>
-	<droneList drones="3" count="3">
+	<droneList drones="3" count="4">
 		<drone name="COMBAT_1"/>
 		<drone name="COMBAT_BEAM"/>
 		<drone name="REPAIR"/>
+		<drone name="SHIP_REPAIR"/>
 	</droneList>
 	<health amount="30"/>
 	<maxPower amount="7"/>

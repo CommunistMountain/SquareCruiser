@@ -19,7 +19,7 @@
 			</slot>
 		</doors>
 		<drones power="2" room="8" start="false" img="room_drones_2"/>
-		<engines power="1" room="5" start="true" img="room_engines_9_squareC">
+		<engines power="4" room="5" start="true" img="room_engines_9_squareC">
 			<slot>
 				<direction>down</direction>
 				<number>2</number>
@@ -33,7 +33,7 @@
 		</medbay>
 		<mind power="1" room="7" start="true" img="room_mind_6"/>
 		<oxygen power="1" room="2" start="true" img="room_oxygen_9"/>
-		<pilot power="1" room="1" start="true" img="room_pilot_3_squareC">
+		<pilot power="2" room="1" start="true" img="room_pilot_3_squareC">
 			<slot>
 				<direction>up</direction>
 				<number>0</number>
@@ -64,7 +64,7 @@
 	<weaponList missiles="0" count="0"/>
 	<droneList drones="0" count="0"/>
 	<health amount="30"/>
-	<maxPower amount="6"/>
+	<maxPower amount="7"/>
 	<crewCount amount="1" class="slug"/>
 	<crewCount amount="1" class="mantis"/>
 	<aug name="TELEPORT_HEAL"/>

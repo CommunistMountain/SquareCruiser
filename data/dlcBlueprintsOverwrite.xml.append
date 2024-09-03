@@ -3,7 +3,7 @@
 <shipBlueprint name="PLAYER_SHIP_SQUARE_CM_3" layout="squareC" img="squareC">
 	<class>Square Cruiser</class>
 	<name>Ragnarr Loðbrók</name>
-	<desc>This ship goes all-in with the boarding strategy, capable of bypassing supershields, and trading medical facilities for a healing teleporter.</desc>
+	<desc>This ship goes all-in with the boarding strategy, capable of bypassing supershields, and trading medical facilities for a healing Teleporter.</desc>
 	<systemList>
 		<battery power="1" room="4" start="false" img="room_battery_2"/>
 		<cloaking power="1" room="13" start="false" img="room_cloaking_4"/>
@@ -31,7 +31,7 @@
 				<number>1</number>
 			</slot>
 		</medbay>
-		<mind power="1" room="7" start="true" img="room_mind_6"/>
+		<mind power="2" room="7" start="true" img="room_mind_6"/>
 		<oxygen power="1" room="2" start="true" img="room_oxygen_9"/>
 		<pilot power="2" room="1" start="true" img="room_pilot_3_squareC">
 			<slot>

@@ -3,7 +3,7 @@
 	<title><![CDATA[ Square Cruiser ]]></title>
 	<threadUrl><![CDATA[ https://github.com/CommunistMountain/SquareCruiser ]]></threadUrl>
 	<author><![CDATA[ CommunistMountain ]]></author>
-	<version><![CDATA[ 1.5 ]]></version>
+	<version><![CDATA[ 1.6 ]]></version>
 	<description>
 <![CDATA[
 Requires the Hyperspace mod for the multi-page ship list, as it does not replace any vanilla ship. Hyperspace also has a fix for the "WEAPONS" and "AUTOFIRE" graphics overlapping for ships with 2 or less max weapons, applicable for Square B.
@@ -21,9 +21,9 @@ Cons:
 
 Lore: The Federation is strapped on cash, not even enough for proper textures, thus ships are designed to be minimalistic.
 
-Square A (Nausicaä): Weapon focus. "This ship is designed to burn enemy ships. Comes with a Cloaking system to buy time while arming the Fire Beam."
-Square B (The Mothership): Drone focus. "This ship was designed by a drone fanatic, able to control up to 4 drones at once, and recover non-destroyed drones."
-Square C (Ragnarr Loðbrók): Boarding focus. "This ship goes all-in with the boarding strategy, capable of bypassing supershields, and trading medical facilities for a healing teleporter."
+Square A (Nausicaä): Weapon focus. "This ship is designed to burn enemy vessels. Comes with Cloaking to buy time while arming the Fire Beam."
+Square B (The Mothership): Drone focus. "This ship was designed by a drone fanatic, able to control up to 4 drones at once and recover non-destroyed drones, at the cost of having fewer weapon slots and no Shields."
+Square C (Ragnarr Loðbrók): Boarding focus. "This ship goes all-in with the boarding strategy, capable of bypassing supershields, and trading medical facilities for a healing Teleporter."
 
 See Github page for images and other information.
 

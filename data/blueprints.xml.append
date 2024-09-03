@@ -3,7 +3,7 @@
 <shipBlueprint name="PLAYER_SHIP_SQUARE_CM" layout="squareA" img="squareA">
 	<class>Square Cruiser</class>
 	<name>Nausicaä</name>
-	<desc>This ship is designed to burn enemy ships. Comes with a Cloaking system to buy time while arming the Fire Beam.</desc>
+	<desc>This ship is designed to burn enemy vessels. Comes with Cloaking to buy time while arming the Fire Beam.</desc>
 	<systemList>
 		<battery power="1" room="4" start="false" img="room_battery_2"/>
 		<cloaking power="1" room="13" start="true" img="room_cloaking_9"/>
@@ -77,7 +77,7 @@
 <shipBlueprint name="PLAYER_SHIP_SQUARE_CM_2" layout="squareB" img="squareB">
 	<class>Square Cruiser</class>
 	<name>The Mothership</name>
-	<desc>This ship was designed by a drone fanatic, able to control up to 4 drones at once, and recover non-destroyed drones.</desc>
+	<desc>This ship was designed by a drone fanatic, able to control up to 4 drones at once and recover non-destroyed drones, at the cost of having fewer weapon slots and no Shields.</desc>
 	<systemList>
 		<battery power="1" room="4" start="false" img="room_battery_10"/>
 		<cloaking power="1" room="13" start="false" img="room_cloaking_4"/>
@@ -99,7 +99,7 @@
 				<number>1</number>
 			</slot>
 		</engines>
-		<hacking power="1" room="10" start="false" img="room_hacking_3"/>
+		<hacking power="1" room="10" start="true" img="room_hacking_3"/>
 		<medbay power="1" room="0" start="true" img="room_medbay_8_squareB">
 			<slot>
 				<number>0</number>
@@ -119,7 +119,7 @@
 				<number>1</number>
 			</slot>
 		</sensors>
-		<shields power="2" room="11" start="true" img="room_shields_5_squareB">
+		<shields power="2" room="11" start="false" img="room_shields_5_squareB">
 			<slot>
 				<direction>down</direction>
 				<number>2</number>
@@ -138,14 +138,16 @@
 	<weaponList missiles="0" count="1">
 		<weapon name="ION_1"/>
 	</weaponList>
-	<droneList drones="3" count="4">
+	<droneList drones="6" count="4">
 		<drone name="COMBAT_1"/>
 		<drone name="COMBAT_BEAM"/>
-		<drone name="REPAIR"/>
-		<drone name="SHIP_REPAIR"/>
+		<drone name="ANTI_DRONE"/>
+		<drone name="DEFENSE_1"/>
 	</droneList>
 	<health amount="30"/>
-	<maxPower amount="7"/>
+	<maxPower amount="6"/>
 	<crewCount amount="1" class="energy"/>
+	<aug name="ADV_SCANNERS"/>
+	<aug name="DEFENSE_SCRAMBLER"/>
 	<aug name="DRONE_RECOVERY"/>
 </shipBlueprint>

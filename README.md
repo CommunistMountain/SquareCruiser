@@ -1,5 +1,5 @@
 # SquareCruiser
-Mod that adds the Square Cruiser to the game FTL: Faster Than Light. Latest version: 1.5
+Mod that adds the Square Cruiser to the game FTL: Faster Than Light. Latest version: 1.6
 
 Requires the [Hyperspace mod](https://github.com/FTL-Hyperspace/FTL-Hyperspace) for the multi-page ship list, as it does not replace any vanilla ship. Hyperspace also has a fix for the "WEAPONS" and "AUTOFIRE" graphics overlapping for ships with 2 or less max weapons, applicable for Square B.
 
@@ -24,7 +24,7 @@ Lore: The Federation is strapped on cash, not even enough for proper textures, t
 
 [Square A in Hangar](https://raw.githubusercontent.com/CommunistMountain/SquareCruiser/main/preview-images/SquareA%20Promo.png)
 
-Square A (Nausicaä): Weapon focus. "This ship is designed to burn enemy ships. Comes with a Cloaking system to buy time while arming the Fire Beam."
+Square A (Nausicaä): Weapon focus. "This ship is designed to burn enemy vessels. Comes with Cloaking to buy time while arming the Fire Beam."
 <table>
 	<tr>
 		<td>Crew</td>
@@ -50,7 +50,7 @@ Square A (Nausicaä): Weapon focus. "This ship is designed to burn enemy ships. 
 
 [Square B in Hangar](https://raw.githubusercontent.com/CommunistMountain/SquareCruiser/main/preview-images/SquareB%20Promo.png)
 
-Square B (The Mothership): Drone focus. "This ship was designed by a drone fanatic, able to control up to 4 drones at once, and recover non-destroyed drones."
+Square B (The Mothership): Drone focus. "This ship was designed by a drone fanatic, able to control up to 4 drones at once and recover non-destroyed drones, at the cost of having fewer weapon slots no Shields."
 <table>
 	<tr>
 		<td>Crew</td>
@@ -58,7 +58,7 @@ Square B (The Mothership): Drone focus. "This ship was designed by a drone fanat
 	</tr>
 	<tr>
 		<td>Systems by Level</td>
-		<td>1: Doors, Engines, Medbay, Oxygen, Piloting, Weapons; 2: Shields; 5: Drones</td>
+		<td>1: Doors, Engines, Hacking, Medbay, Oxygen, Piloting, Weapons; 5: Drones</td>
 	</tr>
 	<tr>
 		<td>Weapons/Drones Max Slots</td>
@@ -66,17 +66,17 @@ Square B (The Mothership): Drone focus. "This ship was designed by a drone fanat
 	</tr>
 	<tr>
 		<td>Starting Resources, Reactor, Weapons/Drones</td>
-		<td>0 Missiles, 3 Drone Parts, 7 Reactor, 1 Ion Blast, 1 Combat Drone 1, 1 Beam Drone 1, 1 System Repair Drone, 1 Hull Repair</td>
+		<td>0 Missiles, 6 Drone Parts, 6 Reactor, 1 Ion Blast, 1 Combat Drone 1, 1 Beam Drone 1, 1 Anti-Combat Drone, 1 Defense Drone 1</td>
 	</tr>
 	<tr>
 		<td>Augmentations</td>
-		<td>Drone Recovery Arm</td>
+		<td>Defense Scrambler, Drone Recovery Arm, Long-Ranged Scanners</td>
 	</tr>
 </table>
 
 [Square C in Hangar](https://raw.githubusercontent.com/CommunistMountain/SquareCruiser/main/preview-images/SquareC%20Promo.png)
 
-Square C (Ragnarr Loðbrók): Boarding focus. "This ship goes all-in with the boarding strategy, capable of bypassing supershields, and trading medical facilities for a healing teleporter."
+Square C (Ragnarr Loðbrók): Boarding focus. "This ship goes all-in with the boarding strategy, capable of bypassing supershields, and trading medical facilities for a healing Teleporter."
 <table>
 	<tr>
 		<td>Crew</td>
@@ -84,7 +84,7 @@ Square C (Ragnarr Loðbrók): Boarding focus. "This ship goes all-in with the bo
 	</tr>
 	<tr>
 		<td>Systems by Level</td>
-		<td>1: Doors, Mind Control, Oxygen, Weapons; 2: Piloting, Shields; 3: Teleporter; 4: Engines</td>
+		<td>1: Doors, Oxygen, Weapons; 2: Mind Control, Piloting, Shields; 3: Teleporter; 4: Engines</td>
 	</tr>
 	<tr>
 		<td>Weapons/Drones Max Slots</td>

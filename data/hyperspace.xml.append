@@ -2,13 +2,4 @@
 
 <ships>
 	<ship name="PLAYER_SHIP_SQUARE_CM" a="true" b="true" c="true"/>
-	<customShip name="PLAYER_SHIP_SQUARE_CM">
-		<crewLimit>8</crewLimit>
-	</customShip>
-	<customShip name="PLAYER_SHIP_SQUARE_CM_2">
-		<crewLimit>8</crewLimit>
-	</customShip>
-	<customShip name="PLAYER_SHIP_SQUARE_CM_3">
-		<crewLimit>8</crewLimit>
-	</customShip>
 </ships>

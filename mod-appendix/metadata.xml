@@ -3,7 +3,7 @@
 	<title><![CDATA[ Square Cruiser ]]></title>
 	<threadUrl><![CDATA[ https://github.com/CommunistMountain/SquareCruiser ]]></threadUrl>
 	<author><![CDATA[ CommunistMountain ]]></author>
-	<version><![CDATA[ 1.6 ]]></version>
+	<version><![CDATA[ 1.7 ]]></version>
 	<description>
 <![CDATA[
 Requires the Hyperspace mod for the multi-page ship list, as it does not replace any vanilla ship. Hyperspace also has a fix for the "WEAPONS" and "AUTOFIRE" graphics overlapping for ships with 2 or less max weapons, applicable for Square B.
@@ -13,11 +13,13 @@ If what you see in-game does not match the advertised description, please submit
 Pros:
 	1. Non-human crew.
 	2. Short distance between systems.
-	3. All external rooms can be vented, which makes extinguishing fires and suffocating intruders easy.
+	3. Medbay/Clone Bay is centralised, allowing crew to walk to/from it quickly.
+	4. Doors are positioned such that rooms can be vented towards the Medbay/Clone Bay, making it easy to deal with intruders and fire.
 
 Cons:
 	1. Compact design means it is more likely for enemy beams to hit multiple rooms.
 	2. Less systemless rooms means it is more likely for the enemy to damage an important room.
+	3. If enemy hacking (or other door-locking effect) targets the Medbay/Clone Bay, many parts of the ship would be cut off from each other.
 
 Lore: The Federation is strapped on cash, not even enough for proper textures, thus ships are designed to be minimalistic.
 

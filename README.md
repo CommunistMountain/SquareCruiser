@@ -1,5 +1,5 @@
 # SquareCruiser
-Mod that adds the Square Cruiser to the game FTL: Faster Than Light. Latest version: 1.6
+Mod that adds the Square Cruiser to the game FTL: Faster Than Light. Latest version: 1.7
 
 Requires the [Hyperspace mod](https://github.com/FTL-Hyperspace/FTL-Hyperspace) for the multi-page ship list, as it does not replace any vanilla ship. Hyperspace also has a fix for the "WEAPONS" and "AUTOFIRE" graphics overlapping for ships with 2 or less max weapons, applicable for Square B.
 
@@ -11,13 +11,15 @@ Pros (all layouts):
 <ol>
 	<li>Non-human crew.</li>
 	<li>Short distance between systems.</li>
-	<li>All external rooms can be vented, which makes extinguishing fires and suffocating intruders easy.</li>
+	<li>Medbay/Clone Bay is centralised, allowing crew to walk to/from it quickly.</li>
+	<li>Doors are positioned such that rooms can be vented towards the Medbay/Clone Bay, making it easy to deal with intruders and fire.</li>
 </ol>
 
 Cons (all layouts):
 <ol>
 	<li>Compact design means it is more likely for enemy beams to hit multiple rooms.</li>
 	<li>Less systemless rooms means it is more likely for the enemy to damage an important room.</li>
+	<li>If enemy hacking (or other door-locking effect) targets the Medbay/Clone Bay, many parts of the ship would be cut off from each other.</li>
 </ol>
 
 Lore: The Federation is strapped on cash, not even enough for proper textures, thus ships are designed to be minimalistic.
@@ -80,7 +82,7 @@ Square C (Ragnarr Loðbrók): Boarding focus. "This ship goes all-in with the bo
 <table>
 	<tr>
 		<td>Crew</td>
-		<td>1 Slug, 1 Mantis</td>
+		<td>1 Mantis, 1 Slug</td>
 	</tr>
 	<tr>
 		<td>Systems by Level</td>

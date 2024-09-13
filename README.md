@@ -1,5 +1,5 @@
 # SquareCruiser
-Mod that adds the Square Cruiser to the game FTL: Faster Than Light. Latest version: 1.7
+Mod that adds the Square Cruiser to the game FTL: Faster Than Light. Latest version: 1.7.1
 
 Requires the [Hyperspace mod](https://github.com/FTL-Hyperspace/FTL-Hyperspace) for the multi-page ship list, as it does not replace any vanilla ship. Hyperspace also has a fix for the "WEAPONS" and "AUTOFIRE" graphics overlapping for ships with 2 or less max weapons, applicable for Square B.
 
@@ -60,7 +60,7 @@ Square B (The Mothership): Drone focus. "This ship was designed by a drone fanat
 	</tr>
 	<tr>
 		<td>Systems by Level</td>
-		<td>1: Doors, Engines, Hacking, Medbay, Oxygen, Piloting, Weapons; 5: Drones</td>
+		<td>1: Clone Bay, Doors, Engines, Hacking, Oxygen, Piloting, Weapons; 5: Drones</td>
 	</tr>
 	<tr>
 		<td>Weapons/Drones Max Slots</td>

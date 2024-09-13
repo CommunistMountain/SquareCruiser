@@ -81,7 +81,7 @@
 	<systemList>
 		<battery power="1" room="0" start="false" img="room_battery_7"/>
 		<cloaking power="1" room="1" start="false" img="room_cloaking_9"/>
-		<clonebay power="1" room="2" start="false">
+		<clonebay power="1" room="2" start="true">
 			<slot>
 				<number>0</number>
 			</slot>
@@ -100,7 +100,7 @@
 			</slot>
 		</engines>
 		<hacking power="1" room="6" start="true" img="room_hacking_5"/>
-		<medbay power="1" room="2" start="true" img="room_medbay_4">
+		<medbay power="1" room="2" start="false" img="room_medbay_4">
 			<slot>
 				<number>0</number>
 			</slot>

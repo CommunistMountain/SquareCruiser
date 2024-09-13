@@ -68,7 +68,7 @@ Square B (The Mothership): Drone focus. "This ship was designed by a drone fanat
 	</tr>
 	<tr>
 		<td>Starting Resources, Reactor, Weapons/Drones</td>
-		<td>0 Missiles, 6 Drone Parts, 6 Reactor, 1 Ion Blast, 1 Combat Drone 1, 1 Beam Drone 1, 1 Anti-Combat Drone, 1 Defense Drone 1</td>
+		<td>0 Missiles, 8 Drone Parts, 6 Reactor, 1 Ion Blast, 1 Combat Drone 1, 1 Beam Drone 1, 1 Anti-Combat Drone, 1 Defense Drone 1</td>
 	</tr>
 	<tr>
 		<td>Augmentations</td>

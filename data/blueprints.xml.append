@@ -138,7 +138,7 @@
 	<weaponList missiles="0" count="2">
 		<weapon name="ION_1"/>
 	</weaponList>
-	<droneList drones="6" count="4">
+	<droneList drones="8" count="4">
 		<drone name="COMBAT_1"/>
 		<drone name="COMBAT_BEAM"/>
 		<drone name="ANTI_DRONE"/>

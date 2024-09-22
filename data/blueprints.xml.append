@@ -150,4 +150,6 @@
 	<aug name="ADV_SCANNERS"/>
 	<aug name="DEFENSE_SCRAMBLER"/>
 	<aug name="DRONE_RECOVERY"/>
+	<shieldImage>squareA</shieldImage>
+	<cloakImage>squareA</cloakImage>
 </shipBlueprint>

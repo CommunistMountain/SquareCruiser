@@ -69,4 +69,6 @@
 	<crewCount amount="1" class="slug"/>
 	<aug name="TELEPORT_HEAL"/>
 	<aug name="ZOLTAN_BYPASS"/>
+	<shieldImage>squareA</shieldImage>
+	<cloakImage>squareA</cloakImage>
 </shipBlueprint>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ships>
-	<ship name="PLAYER_SHIP_SQUARE_CM" a="true" b="true" c="true"/>
-</ships>
+<mod:findLike type="ships" limit="1">
+	<mod-append:ship name="PLAYER_SHIP_SQUARE_CM" a="true" b="true" c="true"/>
+</mod:findLike>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<FTL>
 <roomLayout name="shields_squareB">
 	<computerGlow x="53" y="12" dir="RIGHT" />
 </roomLayout>
@@ -12,3 +13,4 @@
 <roomLayout name="weapons_squareC">
 	<computerGlow x="40" y="18" dir="DOWN" />
 </roomLayout>
+</FTL>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<FTL>
 <shipBlueprint name="PLAYER_SHIP_SQUARE_CM" layout="squareA" img="squareA">
 	<class>Square Cruiser</class>
 	<name>Nausicaä</name>
@@ -153,3 +154,4 @@
 	<shieldImage>squareA</shieldImage>
 	<cloakImage>squareA</cloakImage>
 </shipBlueprint>
+</FTL>

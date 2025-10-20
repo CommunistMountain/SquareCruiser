@@ -3,7 +3,7 @@ Mod that adds the Square Cruiser to the game FTL: Faster Than Light. Latest vers
 
 Requires the [Hyperspace mod](https://github.com/FTL-Hyperspace/FTL-Hyperspace) for the multi-page ship list, as it does not replace any vanilla ship. Hyperspace also has a fix for the "WEAPONS" and "AUTOFIRE" graphics overlapping for ships with 2 or less max weapons, applicable for Square B.
 
-The release SquareCruiser.zip contains folders "data", "img" and "mod-appendix". Change the file extension from .zip to .ftl to use as a mod with the [Slipstream Mod Manager](https://github.com/Vhati/Slipstream-Mod-Manager), or change the setting to consider .zip files as mods.
+The release SquareCruiser.zip contains folders "data", "img" and "mod-appendix". Use with [Slipstream Mod Manager](https://github.com/Vhati/Slipstream-Mod-Manager) or [FTL Mod Manager](https://github.com/afishhh/ftlman). Change the file extension from .zip to .ftl, or change the setting to consider .zip files as mods.
 
 If what you see in-game does not match the advertised description, please submit an issue, or contact me on Reddit (CommunistMountain) or Discord (communistmountain, formerly CommunistMountain#0463).
 <hr>

@@ -3,7 +3,7 @@
 	<title><![CDATA[ Square Cruiser ]]></title>
 	<threadUrl><![CDATA[ https://github.com/CommunistMountain/SquareCruiser ]]></threadUrl>
 	<author><![CDATA[ CommunistMountain ]]></author>
-	<version><![CDATA[ 1.7.2 ]]></version>
+	<version><![CDATA[ 1.8 ]]></version>
 	<description>
 <![CDATA[
 Requires the Hyperspace mod for the multi-page ship list, as it does not replace any vanilla ship. Hyperspace also has a fix for the "WEAPONS" and "AUTOFIRE" graphics overlapping for ships with 2 or less max weapons, applicable for Square B.

@@ -1,5 +1,5 @@
 # SquareCruiser
-Mod that adds the Square Cruiser to the game FTL: Faster Than Light. Latest version: 1.7.2
+Mod that adds the Square Cruiser to the game FTL: Faster Than Light.
 
 Requires the [Hyperspace mod](https://github.com/FTL-Hyperspace/FTL-Hyperspace) for the multi-page ship list, as it does not replace any vanilla ship. Hyperspace also has a fix for the "WEAPONS" and "AUTOFIRE" graphics overlapping for ships with 2 or less max weapons, applicable for Square B.
 
@@ -82,7 +82,7 @@ Square C (Ragnarr Loðbrók): Boarding focus. "This ship goes all-in with the bo
 <table>
 	<tr>
 		<td>Crew</td>
-		<td>1 Mantis, 1 Slug</td>
+		<td>1 Slug, 1 Mantis</td>
 	</tr>
 	<tr>
 		<td>Systems by Level</td>

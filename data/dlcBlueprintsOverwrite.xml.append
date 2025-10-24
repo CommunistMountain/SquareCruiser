@@ -66,8 +66,8 @@
 	<droneList drones="0" count="2"/>
 	<health amount="30"/>
 	<maxPower amount="7"/>
-	<crewCount amount="1" class="mantis"/>
 	<crewCount amount="1" class="slug"/>
+	<crewCount amount="1" class="mantis"/>
 	<aug name="TELEPORT_HEAL"/>
 	<aug name="ZOLTAN_BYPASS"/>
 	<shieldImage>squareA</shieldImage>

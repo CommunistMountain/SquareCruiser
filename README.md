@@ -24,7 +24,8 @@ Cons (all layouts):
 
 Lore: The Federation is strapped on cash, not even enough for proper textures, thus ships are designed to be minimalistic.
 
-![Square A in Hangar](https://raw.githubusercontent.com/CommunistMountain/SquareCruiser/main/preview-images/SquareA%20Promo.png)
+Square A in Hangar:
+![img](https://raw.githubusercontent.com/CommunistMountain/SquareCruiser/main/preview-images/SquareA%20Promo.png)
 
 Square A (Nausicaä): Weapon focus. "This ship is designed to burn enemy vessels. Comes with Cloaking to buy time while arming the Fire Beam."
 <table>
@@ -50,7 +51,8 @@ Square A (Nausicaä): Weapon focus. "This ship is designed to burn enemy vessels
 	</tr>
 </table>
 
-![Square B in Hangar](https://raw.githubusercontent.com/CommunistMountain/SquareCruiser/main/preview-images/SquareB%20Promo.png)
+Square B in Hangar:
+![img](https://raw.githubusercontent.com/CommunistMountain/SquareCruiser/main/preview-images/SquareB%20Promo.png)
 
 Square B (The Mothership): Drone focus. "This ship was designed by a drone fanatic, able to control up to 4 drones at once and recover non-destroyed drones, at the cost of having fewer weapon slots no Shields."
 <table>
@@ -76,7 +78,8 @@ Square B (The Mothership): Drone focus. "This ship was designed by a drone fanat
 	</tr>
 </table>
 
-![Square C in Hangar](https://raw.githubusercontent.com/CommunistMountain/SquareCruiser/main/preview-images/SquareC%20Promo.png)
+Square C in Hangar:
+![img](https://raw.githubusercontent.com/CommunistMountain/SquareCruiser/main/preview-images/SquareC%20Promo.png)
 
 Square C (Ragnarr Loðbrók): Boarding focus. "This ship goes all-in with the boarding strategy, capable of bypassing supershields, and trading medical facilities for a healing Teleporter."
 <table>
@@ -102,6 +105,7 @@ Square C (Ragnarr Loðbrók): Boarding focus. "This ship goes all-in with the bo
 	</tr>
 </table>
 
-[All systems and weapon mount locations (white/red: available/not available at start).](https://raw.githubusercontent.com/CommunistMountain/SquareCruiser/main/preview-images/Square%20Layouts.png)
+All systems and weapon mount locations (white/red: available/not available at start):
+![img](https://raw.githubusercontent.com/CommunistMountain/SquareCruiser/main/preview-images/Square%20Layouts.png)
 
 For modders: Internally they are called PLAYER_SHIP_SQUARE_CM (_2, _3). Only enough weapon mounts for Weapons Control for each ship, add more if you wish.

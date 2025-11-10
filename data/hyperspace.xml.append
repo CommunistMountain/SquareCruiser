@@ -2,6 +2,6 @@
 
 <FTL>
 <mod:findLike type="ships" limit="1">
-	<mod-append:ship name="PLAYER_SHIP_SQUARE_CM" a="true" b="true" c="true"/>
+    <mod-append:ship name="PLAYER_SHIP_SQUARE_CM" a="true" b="true" c="true"/>
 </mod:findLike>
 </FTL>

@@ -2,156 +2,156 @@
 
 <FTL>
 <shipBlueprint name="PLAYER_SHIP_SQUARE_CM" layout="squareA" img="squareA">
-	<class>Square Cruiser</class>
-	<name>Nausicaä</name>
-	<desc>This ship is designed to burn enemy vessels. Comes with Cloaking to buy time while arming the Fire Beam.</desc>
-	<systemList>
-		<battery power="1" room="0" start="false" img="room_battery_10"/>
-		<cloaking power="1" room="1" start="true" img="room_cloaking_8"/>
-		<clonebay power="1" room="2" start="false">
-			<slot>
-				<number>0</number>
-			</slot>
-		</clonebay>
-		<doors power="1" room="3" start="true" img="room_doors">
-			<slot>
-				<direction>up</direction>
-				<number>1</number>
-			</slot>
-		</doors>
-		<drones power="2" room="4" start="false" img="room_drones_3"/>
-		<engines power="1" room="5" start="true" img="room_engines_6">
-			<slot>
-				<direction>down</direction>
-				<number>3</number>
-			</slot>
-		</engines>
-		<hacking power="1" room="6" start="false" img="room_hacking_7"/>
-		<medbay power="1" room="2" start="true" img="room_medbay_4">
-			<slot>
-				<number>0</number>
-			</slot>
-		</medbay>
-		<mind power="1" room="7" start="false" img="room_mind_3"/>
-		<oxygen power="1" room="8" start="true" img="room_oxygen_4"/>
-		<pilot power="1" room="9" start="true" img="room_pilot">
-			<slot>
-				<direction>right</direction>
-				<number>0</number>
-			</slot>
-		</pilot>
-		<sensors power="1" room="10" start="false" img="room_sensors_2">
-			<slot>
-				<direction>up</direction>
-				<number>0</number>
-			</slot>
-		</sensors>
-		<shields power="2" room="11" start="true" img="room_shields_3">
-			<slot>
-				<direction>left</direction>
-				<number>2</number>
-			</slot>
-		</shields>
-		<teleporter power="1" room="12" start="false"/>
-		<weapons power="4" room="13" start="true" img="room_weapons_5">
-			<slot>
-				<direction>right</direction>
-				<number>1</number>
-			</slot>
-		</weapons>
-	</systemList>
-	<weaponSlots>4</weaponSlots>
-	<droneSlots>2</droneSlots>
-	<weaponList missiles="0" count="4">
-		<weapon name="LASER_CHARGEGUN"/>
-		<weapon name="BEAM_FIRE"/>
-	</weaponList>
-	<droneList drones="0" count="2"/>
-	<health amount="30"/>
-	<maxPower amount="7"/>
-	<crewCount amount="1" class="rock"/>
-	<crewCount amount="1" class="engi"/>
-	<aug name="CLOAK_FIRE"/>
-	<aug name="LIFE_SCANNER"/>
+    <class>Square Cruiser</class>
+    <name>Nausicaä</name>
+    <desc>This ship is designed to burn enemy vessels. Comes with Cloaking to buy time while arming the Fire Beam.</desc>
+    <systemList>
+        <battery power="1" room="0" start="false" img="room_battery_10"/>
+        <cloaking power="1" room="1" start="true" img="room_cloaking_8"/>
+        <clonebay power="1" room="2" start="false">
+            <slot>
+                <number>0</number>
+            </slot>
+        </clonebay>
+        <doors power="1" room="3" start="true" img="room_doors">
+            <slot>
+                <direction>up</direction>
+                <number>1</number>
+            </slot>
+        </doors>
+        <drones power="2" room="4" start="false" img="room_drones_3"/>
+        <engines power="1" room="5" start="true" img="room_engines_6">
+            <slot>
+                <direction>down</direction>
+                <number>3</number>
+            </slot>
+        </engines>
+        <hacking power="1" room="6" start="false" img="room_hacking_7"/>
+        <medbay power="1" room="2" start="true" img="room_medbay_4">
+            <slot>
+                <number>0</number>
+            </slot>
+        </medbay>
+        <mind power="1" room="7" start="false" img="room_mind_3"/>
+        <oxygen power="1" room="8" start="true" img="room_oxygen_4"/>
+        <pilot power="1" room="9" start="true" img="room_pilot">
+            <slot>
+                <direction>right</direction>
+                <number>0</number>
+            </slot>
+        </pilot>
+        <sensors power="1" room="10" start="false" img="room_sensors_2">
+            <slot>
+                <direction>up</direction>
+                <number>0</number>
+            </slot>
+        </sensors>
+        <shields power="2" room="11" start="true" img="room_shields_3">
+            <slot>
+                <direction>left</direction>
+                <number>2</number>
+            </slot>
+        </shields>
+        <teleporter power="1" room="12" start="false"/>
+        <weapons power="4" room="13" start="true" img="room_weapons_5">
+            <slot>
+                <direction>right</direction>
+                <number>1</number>
+            </slot>
+        </weapons>
+    </systemList>
+    <weaponSlots>4</weaponSlots>
+    <droneSlots>2</droneSlots>
+    <weaponList missiles="0" count="4">
+        <weapon name="LASER_CHARGEGUN"/>
+        <weapon name="BEAM_FIRE"/>
+    </weaponList>
+    <droneList drones="0" count="2"/>
+    <health amount="30"/>
+    <maxPower amount="7"/>
+    <crewCount amount="1" class="rock"/>
+    <crewCount amount="1" class="engi"/>
+    <aug name="CLOAK_FIRE"/>
+    <aug name="LIFE_SCANNER"/>
 </shipBlueprint>
 
 <shipBlueprint name="PLAYER_SHIP_SQUARE_CM_2" layout="squareB" img="squareB">
-	<class>Square Cruiser</class>
-	<name>The Mothership</name>
-	<desc>This ship was designed by a drone fanatic, able to control up to 4 drones at once and recover non-destroyed drones, at the cost of having fewer weapon slots and no Shields.</desc>
-	<systemList>
-		<battery power="1" room="0" start="false" img="room_battery_7"/>
-		<cloaking power="1" room="1" start="false" img="room_cloaking_9"/>
-		<clonebay power="1" room="2" start="true">
-			<slot>
-				<number>0</number>
-			</slot>
-		</clonebay>
-		<doors power="1" room="3" start="true" img="room_doors_3">
-			<slot>
-				<direction>right</direction>
-				<number>1</number>
-			</slot>
-		</doors>
-		<drones power="5" room="4" start="true" img="room_drones"/>
-		<engines power="1" room="5" start="true" img="room_engines_6">
-			<slot>
-				<direction>down</direction>
-				<number>3</number>
-			</slot>
-		</engines>
-		<hacking power="1" room="6" start="true" img="room_hacking_5"/>
-		<medbay power="1" room="2" start="false" img="room_medbay_4">
-			<slot>
-				<number>0</number>
-			</slot>
-		</medbay>
-		<mind power="1" room="7" start="false" img="room_mind_6"/>
-		<oxygen power="1" room="8" start="true" img="room_oxygen"/>
-		<pilot power="1" room="9" start="true" img="room_pilot">
-			<slot>
-				<direction>right</direction>
-				<number>0</number>
-			</slot>
-		</pilot>
-		<sensors power="1" room="10" start="false" img="room_sensors_squareB">
-			<slot>
-				<direction>right</direction>
-				<number>0</number>
-			</slot>
-		</sensors>
-		<shields power="2" room="11" start="false" img="room_shields_squareB">
-			<slot>
-				<direction>right</direction>
-				<number>1</number>
-			</slot>
-		</shields>
-		<teleporter power="1" room="12" start="false"/>
-		<weapons power="1" room="13" start="true" img="room_weapons_squareB">
-			<slot>
-				<direction>left</direction>
-				<number>1</number>
-			</slot>
-		</weapons>
-	</systemList>
-	<weaponSlots>2</weaponSlots>
-	<droneSlots>4</droneSlots>
-	<weaponList missiles="0" count="2">
-		<weapon name="ION_1"/>
-	</weaponList>
-	<droneList drones="8" count="4">
-		<drone name="COMBAT_1"/>
-		<drone name="COMBAT_BEAM"/>
-		<drone name="ANTI_DRONE"/>
-		<drone name="DEFENSE_1"/>
-	</droneList>
-	<health amount="30"/>
-	<maxPower amount="6"/>
-	<crewCount amount="1" class="energy"/>
-	<aug name="ADV_SCANNERS"/>
-	<aug name="DEFENSE_SCRAMBLER"/>
-	<aug name="DRONE_RECOVERY"/>
-	<shieldImage>squareA</shieldImage>
-	<cloakImage>squareA</cloakImage>
+    <class>Square Cruiser</class>
+    <name>The Mothership</name>
+    <desc>This ship was designed by a drone fanatic, able to control up to 4 drones at once and recover non-destroyed drones, at the cost of having fewer weapon slots and no Shields.</desc>
+    <systemList>
+        <battery power="1" room="0" start="false" img="room_battery_7"/>
+        <cloaking power="1" room="1" start="false" img="room_cloaking_9"/>
+        <clonebay power="1" room="2" start="true">
+            <slot>
+                <number>0</number>
+            </slot>
+        </clonebay>
+        <doors power="1" room="3" start="true" img="room_doors_3">
+            <slot>
+                <direction>right</direction>
+                <number>1</number>
+            </slot>
+        </doors>
+        <drones power="5" room="4" start="true" img="room_drones"/>
+        <engines power="1" room="5" start="true" img="room_engines_6">
+            <slot>
+                <direction>down</direction>
+                <number>3</number>
+            </slot>
+        </engines>
+        <hacking power="1" room="6" start="true" img="room_hacking_5"/>
+        <medbay power="1" room="2" start="false" img="room_medbay_4">
+            <slot>
+                <number>0</number>
+            </slot>
+        </medbay>
+        <mind power="1" room="7" start="false" img="room_mind_6"/>
+        <oxygen power="1" room="8" start="true" img="room_oxygen"/>
+        <pilot power="1" room="9" start="true" img="room_pilot">
+            <slot>
+                <direction>right</direction>
+                <number>0</number>
+            </slot>
+        </pilot>
+        <sensors power="1" room="10" start="false" img="room_sensors_squareB">
+            <slot>
+                <direction>right</direction>
+                <number>0</number>
+            </slot>
+        </sensors>
+        <shields power="2" room="11" start="false" img="room_shields_squareB">
+            <slot>
+                <direction>right</direction>
+                <number>1</number>
+            </slot>
+        </shields>
+        <teleporter power="1" room="12" start="false"/>
+        <weapons power="1" room="13" start="true" img="room_weapons_squareB">
+            <slot>
+                <direction>left</direction>
+                <number>1</number>
+            </slot>
+        </weapons>
+    </systemList>
+    <weaponSlots>2</weaponSlots>
+    <droneSlots>4</droneSlots>
+    <weaponList missiles="0" count="2">
+        <weapon name="ION_1"/>
+    </weaponList>
+    <droneList drones="8" count="4">
+        <drone name="COMBAT_1"/>
+        <drone name="COMBAT_BEAM"/>
+        <drone name="ANTI_DRONE"/>
+        <drone name="DEFENSE_1"/>
+    </droneList>
+    <health amount="30"/>
+    <maxPower amount="6"/>
+    <crewCount amount="1" class="energy"/>
+    <aug name="ADV_SCANNERS"/>
+    <aug name="DEFENSE_SCRAMBLER"/>
+    <aug name="DRONE_RECOVERY"/>
+    <shieldImage>squareA</shieldImage>
+    <cloakImage>squareA</cloakImage>
 </shipBlueprint>
 </FTL>

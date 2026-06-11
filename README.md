@@ -52,7 +52,7 @@ Square A (Nausicaä): Weapon focus. "This ship is designed to burn enemy vessels
 
 ![img](https://raw.githubusercontent.com/CommunistMountain/SquareCruiser/main/preview-images/SquareB%20Promo.png)
 
-Square B (The Mothership): Drone focus. "This ship was designed by a drone fanatic, able to control up to 4 drones at once and recover non-destroyed drones, at the cost of having fewer weapon slots no Shields."
+Square B (The Mothership): Drone focus. "This ship was designed by a drone fanatic, able to control up to 4 drones at once and recover non-destroyed drones, at the cost of having fewer weapon slots and no Shields."
 <table>
 	<tr>
 		<td>Crew</td>
